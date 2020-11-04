@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital@0;1&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #e8e8e8 ;
+  font-family: 'Nunito', sans-serif;
+  color:; #495464;
+  font-size: 20px;
+  line-height: 1em;
+}
+
+h1 {
+
+  color: #495464;
+  font-family: 'Nunito';
+  font-size: 35px;
+  line-height: 2em;
+}
+
+h2, h3 {
+
+  color: #bbbfca
+  font-family: 'Nunito';
+  font-size: 25px;
+  line-height: 2em;
+}
+
+p {
+  line-height: 2em;
+}
+
+a {
+  color: #495464;
+  text-decoration: none;
+ }
+
+a:hover{
+  color:#bbbfca;
+}
+
+div {
+  padding: 15px 20px;
+}
+
+li {
+  margin: 0 20px auto;
+  padding: Opx 20px;
+  line-height: 2em;
+}
+
+.list-inline {
+  display: block;
+  list-style: none;
+}
+
+.list-inline > li{
+  display: inline-block;
+}
+
+.card {
+  background: #f4f4f2;
+  border:1px solid;
+  border-radius:5px;
+  margin:20px 20px auto;
+  box-shadow: 2px 6px 7px #495464;
+}
+ #container {
+  width: 500px;
+ }
+
+.img-circle {
+  border-radius: 50%;
+  box-shadow: 4px 5px 5px #495464;
+}
+
+.text-align {
+  text-align: center;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+

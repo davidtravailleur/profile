@@ -1,4 +1,9 @@
 
+#avatar {
+  object-fit: cover;
+
+}
+
 .img-white-border {
   border: 3px solid #D0F1BF;
 }

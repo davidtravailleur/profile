@@ -2,28 +2,31 @@
 
 .card {
   background: #fff;
-  height: 400px;
+  height: auto;
   width: 600px;
   display: flex;
+  flex-direction: column;
   border-radius: 10px;
   margin: 30px auto 30px;
 }
 
 
 .card-img {
-  width: 40%;
-  height: 100%;
+  width: 100%;
+  height: 325px;
   position: relative;
-  border-right: 1px solid rgba(219, 108, 121, 0.9);
+  border: 3px solid rgba(219, 108, 121, 0.9);
+  border-radius: 10px 10px 0px 0px;
 }
 .card-img img {
   object-fit: cover;
-  height: 100%;
-  border-radius: 10px 0px 0px 10px;
+  border-radius: 10px 10px 0px 0px;
 }
 
 .card-img-site {
   width: 100%;
+  object-fit: cover;
+  height: 100%;
 }
 
 .card-img-icon {
@@ -31,8 +34,8 @@
   width: 100px;
   height: 100px;
   position: absolute;
-  top: 14px;
-  left: 190px;
+  top: 270px;
+  left: 400px;
   border-radius: 50%;
 }
 
@@ -45,23 +48,22 @@
 
 }
 .card-description {
-  width: 60%;
+  width: 100%;
   height: 100%;
   padding-left: 10px;
   text-align: center;
-  padding: 60px 30px;
+  padding: 50px 30px;
 
 }
 
 .card-description h1 {
   font-size: 20px;
   color: white;
-  text-align: right;
+  text-align: left;
   background-color: rgb(189, 211, 88);
   border-radius: 10px;
-  width: 90%;
+  width: 350px;
   position: relative;
-  left: 10%;
   bottom: 5%;
   padding-right: 10px;
   padding-left: 10px;
@@ -75,9 +77,20 @@
 
 .card-description h3 {
   text-align: left;
+  opacity: 0.65;
+  padding-right: 5px;
 }
 
 .card-description p {
   font-size: 12px;
   color: black;
+  padding-top: 10px;
+}
+.card-tag {
+  display: flex;
+  text-align: center;
+}
+
+.fa-tags {
+  opacity: 0.45;
 }

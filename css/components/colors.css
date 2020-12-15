@@ -3,6 +3,13 @@
   background-color: #D0F1BF;
 }
 
+.green_text {
+  color: rgb(189, 211, 88);
+}
+
+.purple_text {
+  color: #F26DF9;
+}
 .candy_pink {
   background-color: rgba(219, 108, 121, 0.9);
 }

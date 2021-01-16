@@ -1,9 +1,13 @@
 
 #avatar {
   object-fit: cover;
-
+  height: 200px;
+  width: 200px;
 }
 
-.img-white-border {
+.img-border {
   border: 3px solid #D0F1BF;
+}
+.img-circle {
+  border-radius: 50%;
 }
